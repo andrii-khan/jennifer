@@ -1,0 +1,29 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 5px;
+    overflow: hidden;
+}
+.row {
+    border: 1px solid greenyellow;
+}
+.profit {
+    background-color: #232324;
+    padding: 15px 0;
+}
+.profit .row {
+
+}
+.profit .item {
+    text-align: center;
+    margin: 15px;
+}
+.profit .item .subtitle {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 3px 0;
+}
+.profit .item .text {
+    color: #d94948;
+}

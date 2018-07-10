@@ -34,8 +34,8 @@ a {
     position: absolute;
 }
 .wrapper {
-    font-family: "Open Sans";
-    font-weight: 30px;
+    font-family: "Open Sans", sans-serif ;
+    font-weight: 100;
     font-size: 15px;
     height: 40px;
 }
@@ -89,11 +89,11 @@ button .donate-buttom {
     /*margin: 40px;*/
 }
 .main-content p {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     color: black;
     padding: 0 10px;
     font-size: 19px;
-    margin: 0px 0 40px 0;
+    margin: 0 0 40px 0;
 }
 .photo-main {
     width: 438px;
@@ -108,7 +108,7 @@ button .donate-buttom {
     text-align: center;
     line-height: 42px;
     text-transform: uppercase;
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
     font-size: 14px;
     color: white;
 }
@@ -127,11 +127,11 @@ button .donate-buttom {
 
 }
 h3, h2  {
-    font-family: "Lobster";
+    font-family: "Lobster", sans-serif;
     font-size: 30px;
 }
 p {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
 .tabs {
     width: 376px;
@@ -147,7 +147,7 @@ p {
 .content-category {
     display: flex;
     justify-content: space-between;
-    position: relative;
+    /*position: relative;*/
     top: 30px;
 }
 .blue-content {
@@ -172,12 +172,12 @@ p {
     color: gray;
 }
 section p {
-    font-family: "Lobster";
+    font-family: "Lobster", sans-serif;
     color: #a8a8a8;
     font-size: 22px;
 }
 section h2 {
-    font-family: "Lobster";
+    font-family: "Lobster", sans-serif;
     color: #0054a4;
     font-size: 40px;
 }
@@ -191,22 +191,64 @@ section h2 {
     text-align: center;
     cursor: pointer;
 }
-/*.green-img {*/
-    /*width: 70px;*/
-    /*height: 70px;*/
-    /*background-color: white;*/
-    /*border-radius: 50%;*/
-
-/*}*/
-/*.fa-heart {*/
-    /*color: #6fbd2a;*/
-    /*align-self: center;*/
-/*}*/
-.tabs-active1 {
+.ttablet {
     display: flex;
-    /*justify-content: space-between;*/
-    /*flex-direction: row;*/
-}
-.green-img {
     justify-content: space-between;
+}
+.tablet {
+    width: 376px;
+    height: 164px;
+    margin-top: -80px;
+    margin-bottom: 80px;
+    display: flex;
+}
+.green-tabs {
+    background-color: #6fbd2a;
+    border-radius: 30px;
+}
+/*.heart {*/
+    /*background-color: white;*/
+    /*height: 70px;*/
+    /*width: 70px;*/
+    /*border-radius: 50%;*/
+/*}*/
+.pink-tabs {
+    background-color: #f15b4f;
+    border-radius: 30px;
+}
+.bl-tabs {
+    background-color: #0054a4;
+    border-radius: 30px;
+}
+.tabs-icon {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+.line-tabs {
+    width: 94px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.35);
+    margin: 10px 0;
+}
+.tabs-font-tp {
+    font-family: "Lobster", sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+}
+.tabs-font-bt {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+.tabs-link {
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+}
+body {
+    margin: 0;
+}
+section h2 {
+    margin-top: -30px;
 }
