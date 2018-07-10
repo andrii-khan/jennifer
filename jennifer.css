@@ -1,0 +1,212 @@
+ul {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+}
+a {
+    text-decoration: none;
+}
+.cf::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.top-header {
+    background-color: #0054a4;
+
+}
+.header-social-icons li {
+    display: inline-block;
+    padding: 5px;
+}
+.header-social-icons i {
+    font-size: 20px;
+    color: #fff;
+}
+.logo-top {
+    position: absolute;
+}
+.wrapper {
+    font-family: "Open Sans";
+    font-weight: 30px;
+    font-size: 15px;
+    height: 40px;
+}
+.header-social-icons {
+    float: right;
+}
+.header-bottom li {
+    display: inline-block;
+    padding: 10px 5px;
+    margin: 20px 0;
+    font-size: 15px;
+}
+.donate-buttom {
+    border-radius: 23px;
+    color: white;
+    margin: 20px 0;
+
+}
+.main-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.main-menu li:hover {
+    cursor: pointer;
+    border: 1px solid #0054a4;
+    background-color: #eeeeee;
+    border-radius: 20px;
+}
+.main-menu li {
+    border: 1px solid transparent;
+}
+.main-menu a {
+    color: grey;
+}
+.main-menu li:hover a{
+    color: #0054a4;
+}
+button .donate-buttom {
+    /*border: 1px solid red;*/
+    /*background-color: red;*/
+    /*color: white;*/
+    border-radius: 23px;
+    color: white;
+    margin: 20px 0;
+
+}
+.main-content h1 {
+    font: 60px "Lobster";
+    color: #0054a4;
+    padding: 40px 10px;
+    /*margin: 40px;*/
+}
+.main-content p {
+    font-family: "Open Sans";
+    color: black;
+    padding: 0 10px;
+    font-size: 19px;
+    margin: 0px 0 40px 0;
+}
+.photo-main {
+    width: 438px;
+    position: relative;
+    top: 40px;
+
+}
+.button-main {
+    width: 162px;
+    height: 46px;
+    border-radius: 23px;
+    text-align: center;
+    line-height: 42px;
+    text-transform: uppercase;
+    font-family: "Arial";
+    font-size: 14px;
+    color: white;
+}
+.pink {
+    background-color: #f15b4f;
+    color: white;
+}
+.blue {
+    background-color: #0054a4;
+    color: white;
+}
+.photo-girl {
+    background: url("main-img.jpg") no-repeat center;
+    background-size: cover;
+    height: 650px
+
+}
+h3, h2  {
+    font-family: "Lobster";
+    font-size: 30px;
+}
+p {
+    font-family: "Open Sans";
+}
+.tabs {
+    width: 376px;
+    height: 164px;
+    border-radius: 30px;
+    text-align: center;
+}
+.tabs-active:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.43);
+    transition: all .2s;
+}
+.content-category {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+}
+.blue-content {
+    background-color: #0054a4;
+    color: white;
+}
+.pink-content {
+    background-color: #f15b4f;
+    color: white;
+}
+.green-content {
+    background-color: #6fbd2a;
+    color: white;
+
+}
+.abaut-jen {
+    text-align: center;
+    margin: 15px 0 40px 0;
+}
+
+.abaut-jen p {
+    color: gray;
+}
+section p {
+    font-family: "Lobster";
+    color: #a8a8a8;
+    font-size: 22px;
+}
+section h2 {
+    font-family: "Lobster";
+    color: #0054a4;
+    font-size: 40px;
+}
+
+.all-image {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.item {
+    text-align: center;
+    cursor: pointer;
+}
+/*.green-img {*/
+    /*width: 70px;*/
+    /*height: 70px;*/
+    /*background-color: white;*/
+    /*border-radius: 50%;*/
+
+/*}*/
+/*.fa-heart {*/
+    /*color: #6fbd2a;*/
+    /*align-self: center;*/
+/*}*/
+.tabs-active1 {
+    display: flex;
+    /*justify-content: space-between;*/
+    /*flex-direction: row;*/
+}
+.green-img {
+    justify-content: space-between;
+}
