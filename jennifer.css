@@ -20,7 +20,6 @@ a {
 }
 .top-header {
     background-color: #0054a4;
-
 }
 .header-social-icons li {
     display: inline-block;
@@ -29,6 +28,7 @@ a {
 .header-social-icons i {
     font-size: 20px;
     color: #fff;
+    margin-top: 5px;
 }
 .logo-top {
     position: absolute;
@@ -73,12 +73,10 @@ a {
 .main-menu li:hover a{
     color: #0054a4;
 }
-button .donate-buttom {
-    /*border: 1px solid red;*/
-    /*background-color: red;*/
-    /*color: white;*/
-    border-radius: 23px;
+nav button .donate-buttom {
+    background-color: red;
     color: white;
+    border-radius: 23px;
     margin: 20px 0;
 
 }
@@ -111,14 +109,15 @@ button .donate-buttom {
     font-family: "Arial", sans-serif;
     font-size: 14px;
     color: white;
+    border: 0;
 }
 .pink {
     background-color: #f15b4f;
-    color: white;
+    /*color: white;*/
 }
 .blue {
     background-color: #0054a4;
-    color: white;
+    /*color: white;*/
 }
 .photo-girl {
     background: url("main-img.jpg") no-repeat center;
@@ -273,6 +272,8 @@ section h2 {
     align-items: center;
     border-radius: 50%;
     margin-right: 20px;
+    box-shadow: 3px 0 7px rgba(0, 0, 0, 0.23);
+
 }
 .heart {
     color: #6fbd2a;

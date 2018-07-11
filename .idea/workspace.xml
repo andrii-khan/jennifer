@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6c3faf88-b82f-415a-9b46-52873bf834fd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/prosto.css" afterPath="$PROJECT_DIR$/css/prosto.css" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/dz-kvadrat.html" afterPath="$PROJECT_DIR$/dz-kvadrat.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/jennifer.css" afterPath="$PROJECT_DIR$/jennifer.css" />
       <change beforePath="$PROJECT_DIR$/jennifer.html" afterPath="$PROJECT_DIR$/jennifer.html" />
-      <change beforePath="$PROJECT_DIR$/prostotak.html" afterPath="$PROJECT_DIR$/prostotak.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +30,8 @@
           <file leaf-file-name="jennifer.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/jennifer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="72" column="47" lean-forward="false" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+                <state relative-caret-position="310">
+                  <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -89,8 +84,8 @@
           <file leaf-file-name="jennifer.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/jennifer.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="559">
-                  <caret line="242" column="18" lean-forward="false" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="18" />
+                <state relative-caret-position="270">
+                  <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -108,6 +103,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>border: 1px solid red;</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -118,9 +118,9 @@
         <option value="$PROJECT_DIR$/css/prosto.css" />
         <option value="$PROJECT_DIR$/dz-kvadrat.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/jennifer.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/jennifer.css" />
+        <option value="$PROJECT_DIR$/jennifer.html" />
       </list>
     </option>
   </component>
@@ -207,12 +207,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531248498617</updated>
-      <workItem from="1531248499942" duration="13460000" />
+      <workItem from="1531248499942" duration="15139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13460000" />
+    <option name="totallyTimeSpent" value="15139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
@@ -294,18 +294,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jennifer.html">
+    <entry file="file://$PROJECT_DIR$/jennifer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="72" column="47" lean-forward="false" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+        <state relative-caret-position="270">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jennifer.css">
+    <entry file="file://$PROJECT_DIR$/jennifer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="242" column="18" lean-forward="false" selection-start-line="242" selection-start-column="18" selection-end-line="242" selection-end-column="18" />
+        <state relative-caret-position="310">
+          <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
           <folding />
         </state>
       </provider>
