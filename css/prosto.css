@@ -13,11 +13,15 @@
     padding: 15px 0;
 }
 .profit .row {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .profit .item {
     text-align: center;
     margin: 15px;
+    flex-basis: 300px;
+    /*background-color: #999;*/
 }
 .profit .item .subtitle {
     color: #fff;
