@@ -33,6 +33,7 @@ a {
 }
 .logo-top {
     position: absolute;
+    z-index: 122;
 }
 .wrapper {
     font-family: "Open Sans", sans-serif ;
@@ -310,6 +311,106 @@ section h2 {
     margin-bottom: 5px;
 }
 
+.header-calendar {
+    padding: 70px 0;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 70px;
+}
+.calendar {
+    background-color: #f1f1f1;
+}
+.header-calendar h2 {
+    font-size: 40px;
+}
+.header-calendar p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: grey;
+    margin: 10px 0;
+}
+
+.btn-see-all p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #0054a4;
+    box-sizing: border-box;
+    float: right;
+}
+.btn-see-all p:hover {
+    color: #0054a4;
+}
+.calendar-items {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.cld-items {
+    position: relative;
+    top: -65px;
+    width: 362px;
+    height: 584px;
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #dddddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.img-lg {
+    margin-top: -90px;
+}
+.text-description {
+    padding: 0 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #a8a8a8;
+
+}
+.text-calendar {
+    font-size: 24px;
+    line-height: 1.2;
+    font-family: "Lobster", sans-serif;
+    color: #747474;
+}
+.data-calendar {
+    color: #747474;
+    font-family: "Open Sans";
+}
+.data-calendar span {
+    color: #0054a4;
+}
+.cld-items:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.43);
+}
+.header-video {
+    text-align: center;
+    align-self: center;
+
+}
+.header-video h2 {
+    font-size: 40px;
+}
+.img-video {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.img-video p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.text-video {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
 @media only screen and ( max-width: 1030px ) {
     .main-menu ul {
         display: none;
