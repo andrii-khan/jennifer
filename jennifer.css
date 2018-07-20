@@ -3,10 +3,14 @@ ul {
     padding: 0;
     margin: 0;
 }
+/** {*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+/*}*/
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    position: relative;
+    /*position: relative;*/
     padding: 0 30px;
     /*display: flex;*/
     /*justify-content: space-between;*/
@@ -411,6 +415,187 @@ section h2 {
     justify-content: space-around;
     margin-bottom: 30px;
 }
+.recent-news {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 40px 0;
+}
+.news {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.block__news {
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 440px;
+}
+.block__news__text p {
+    font-size: 24px;
+    line-height: 1.2;
+    font-family: "Lobster", sans-serif;
+    color: #747474;
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+.block__news__text {
+    display: flex;
+    justify-content: flex-start;
+}
+.block__news__buttom {
+    display: flex;
+    margin-left: 40px;
+    width: 116px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+.block__news__buttom:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.43);
+}
+.block__news:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.43);
+}
+
+.volunteer-section {
+    background-image: url("http://www.jenniferwilks.org/img/volunteer.jpg");
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block__volunteer {
+    width: 421px;
+    height: 400px;
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.block__volunteer h2 {
+    font-size: 60px;
+    margin: 0;
+}
+.block__volunteer h3 {
+    font-size: 32px;
+    margin: 30px;
+}
+.block__volunteer p {
+    font-size: 18px;
+    color: grey;
+}
+.block__volunteer__bottom {
+    border: 1px solid #0054a4;
+    width: 195px;
+    height: 51px;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #0054a4;
+    align-items: center;
+    font-family: "Open Sans",sans-serif;
+}
+.block__volunteer__bottom:hover  {
+    background-color: #0054a4;
+    color: white;
+}
+
+.block__volunteer__bottom p:hover  {
+    color: white;
+}
+
+.partnerts-section {
+    display: flex;
+    padding: 70px 0;
+    align-items: center;
+    justify-content: center;
+}
+.partnerts-block {
+    justify-content: space-between;
+    display: flex;
+}
+
+.pbc {
+    margin: 0 25px;
+}
+.scroll-left {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #a8a8a8;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a8a8a8;
+    font-size: 28px;
+    line-height: 49px;
+}
+.scroll-right {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #a8a8a8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a8a8a8;
+    font-size: 28px;
+    line-height: 49px;
+    
+}
+
+.scroll:hover {
+    cursor: pointer;
+    color: #0054a4;
+    border: 1px solid #0054a4;
+}
+.containr {
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    background: url("http://www.jenniferwilks.org/img/footer-bg.jpg");
+    height: 420px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-copiright {
+    text-align: center;
+    padding: 10px 0;
+    background: #003b7b;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-logo {
+    padding: 70px 0;
+}
+.footer-social {
+    color: #ffffff;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+.footer-social i {
+    padding: 10px;
+}
+
+
 @media only screen and ( max-width: 1030px ) {
     .main-menu ul {
         display: none;
@@ -421,3 +606,4 @@ section h2 {
         top: 20px;
     }
 }
+
