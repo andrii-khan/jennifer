@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c3faf88-b82f-415a-9b46-52873bf834fd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/ff.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/jennifer.css" afterPath="$PROJECT_DIR$/jennifer.css" />
       <change beforePath="$PROJECT_DIR$/jennifer.html" afterPath="$PROJECT_DIR$/jennifer.html" />
-      <change beforePath="$PROJECT_DIR$/prostotak.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/бэм.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +28,8 @@
           <file leaf-file-name="jennifer.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/jennifer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="481">
-                  <caret line="307" column="31" lean-forward="false" selection-start-line="307" selection-start-column="31" selection-end-line="307" selection-end-column="31" />
+                <state relative-caret-position="521">
+                  <caret line="319" column="41" lean-forward="false" selection-start-line="319" selection-start-column="41" selection-end-line="319" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -82,8 +72,8 @@
           <file leaf-file-name="jennifer.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/jennifer.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="519">
-                  <caret line="639" column="14" lean-forward="false" selection-start-line="639" selection-start-column="14" selection-end-line="639" selection-end-column="14" />
+                <state relative-caret-position="449">
+                  <caret line="631" column="18" lean-forward="true" selection-start-line="631" selection-start-column="18" selection-end-line="631" selection-end-column="18" />
                   <folding>
                     <marker date="1532640914000" expanded="true" signature="11532:11549" ph="..." />
                   </folding>
@@ -140,8 +130,8 @@
         <option value="$PROJECT_DIR$/бэм.html" />
         <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/jennifer.html" />
         <option value="$PROJECT_DIR$/jennifer.css" />
+        <option value="$PROJECT_DIR$/jennifer.html" />
       </list>
     </option>
   </component>
@@ -235,12 +225,12 @@
       <workItem from="1531841525813" duration="7229000" />
       <workItem from="1531948481672" duration="293000" />
       <workItem from="1531997000497" duration="23364000" />
-      <workItem from="1532527081805" duration="10471000" />
+      <workItem from="1532527081805" duration="10608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67355000" />
+    <option name="totallyTimeSpent" value="67492000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,21 +667,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jennifer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="307" column="31" lean-forward="false" selection-start-line="307" selection-start-column="31" selection-end-line="307" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jennifer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="639" column="14" lean-forward="false" selection-start-line="639" selection-start-column="14" selection-end-line="639" selection-end-column="14" />
+        <state relative-caret-position="449">
+          <caret line="631" column="18" lean-forward="true" selection-start-line="631" selection-start-column="18" selection-end-line="631" selection-end-column="18" />
           <folding>
             <marker date="1532640914000" expanded="true" signature="11532:11549" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jennifer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="319" column="41" lean-forward="false" selection-start-line="319" selection-start-column="41" selection-end-line="319" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
