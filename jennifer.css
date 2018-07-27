@@ -5,8 +5,8 @@ ul {
     list-style: none;
 }
 /** {*/
-    /*padding: 0;*/
-    /*margin: 0;*/
+/*padding: 0;*/
+/*margin: 0;*/
 /*}*/
 .container {
     max-width: 1200px;
@@ -505,15 +505,23 @@ iframe {
 }
 
 
-.sl_slide {
-    position: relative;
-}
-.sl_img img {
-    max-width: 100%;
-    height: auto;
+.slick-initialized .slick-slide.sl_slide {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
+button.slick-prev:before,
+button.slick-next:before {
+    color: #000000;
+}
+
+button.slick-next {
+    right: 25px;
+}
+
+button.slick-prev {
+    left: 25px;
+}
+
 .containr {
     display: flex;
     justify-content: space-around;
