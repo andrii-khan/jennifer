@@ -504,8 +504,6 @@ iframe {
     color: white;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .slick-initialized .slick-slide.sl_slide {
     display: flex;
     justify-content: center;
@@ -522,27 +520,18 @@ button.slick-next {
 button.slick-prev {
     left: 25px;
     z-index: 1;
-=======
+}
 
 .sl_slide {
     position: relative;
 }
-=======
-
-.sl_slide {
-    position: relative;
-}
->>>>>>> parent of 2139d55... 'a'
 .sl_img img {
     max-width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
->>>>>>> parent of 2139d55... 'a'
-=======
->>>>>>> parent of 2139d55... 'a'
 }
+
 .containr {
     display: flex;
     justify-content: space-around;
