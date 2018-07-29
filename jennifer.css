@@ -504,7 +504,6 @@ iframe {
     color: white;
 }
 
-
 .slick-initialized .slick-slide.sl_slide {
     display: flex;
     justify-content: center;
@@ -527,9 +526,8 @@ button.slick-next {
 .sl_slide {
     position: relative;
 }
-.sl_slide {
-    position: relative;
-}
+
+
 .sl_img img {
     max-width: 100%;
     height: auto;
