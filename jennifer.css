@@ -506,7 +506,6 @@ iframe {
 
 .slick-initialized .slick-slide.sl_slide {
     display: flex;
-    justify-content: space-between;
     justify-content: center;
 }
 button.slick-prev:before,
