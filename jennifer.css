@@ -5,8 +5,8 @@ ul {
     list-style: none;
 }
 /** {*/
-/*padding: 0;*/
-/*margin: 0;*/
+    /*padding: 0;*/
+    /*margin: 0;*/
 /*}*/
 .container {
     max-width: 1200px;
@@ -505,6 +505,7 @@ iframe {
 }
 
 
+<<<<<<< HEAD
 .slick-initialized .slick-slide.sl_slide {
     display: flex;
     justify-content: center;
@@ -522,12 +523,17 @@ button.slick-next:before {
 
 button.slick-next {
     right: 25px;
+=======
+.sl_slide {
+    position: relative;
+>>>>>>> parent of 2139d55... 'a'
 }
-
-button.slick-prev {
-    left: 25px;
+.sl_img img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
 }
-
 .containr {
     display: flex;
     justify-content: space-around;

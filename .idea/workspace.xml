@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c3faf88-b82f-415a-9b46-52873bf834fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/jennifer.css" afterPath="$PROJECT_DIR$/jennifer.css" />
-    </list>
+    <list default="true" id="6c3faf88-b82f-415a-9b46-52873bf834fd" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +228,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68584000" />
+    <option name="totallyTimeSpent" value="68682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
