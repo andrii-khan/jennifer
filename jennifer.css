@@ -504,9 +504,9 @@ iframe {
     color: white;
 }
 
-
 .slick-initialized .slick-slide.sl_slide {
     display: flex;
+    justify-content: space-between;
     justify-content: center;
 }
 button.slick-prev:before,
@@ -520,6 +520,7 @@ button.slick-next {
 
 button.slick-prev {
     left: 25px;
+    z-index: 1;
 }
 
 .containr {
@@ -658,37 +659,52 @@ button.slick-prev {
     .main-menu ul {
         display: none;
     }
-    .burger-menu  {
+
+    .burger-menu {
         display: flex;
     }
+
     .burger-menu-list {
         display: flex;
         flex-direction: column;
     }
+
     .ttablet {
         flex-direction: column;
         margin-top: 90px;
     }
+
     .all-image {
         flex-direction: column;
         align-items: center;
         margin-bottom: 30px;
     }
+
     .calendar-items {
         flex-direction: column;
         align-items: center;
     }
-    .img-video {
-        flex-direction: column;
-        align-items: center;
+
+    .video-container {
+        width: 50%;
+        margin-right: 15px;
     }
+
+    .clip {
+        width: auto;
+        height: 30vw;
+        margin-bottom: 20px;
+    }
+
     .news {
         flex-direction: column;
         align-items: center;
     }
+
     .block__news {
         margin-bottom: 20px;
     }
+
     .partnerts-block {
         flex-direction: column;
         align-items: center;
