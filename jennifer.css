@@ -508,11 +508,6 @@ iframe {
     display: flex;
     justify-content: center;
 }
-.slick-slider {
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-}
 
 button.slick-prev:before,
 button.slick-next:before {
@@ -522,18 +517,11 @@ button.slick-next:before {
 button.slick-next {
     right: 25px;
 }
-
-.sl_slide {
-    position: relative;
+button.slick-prev {
+    left: 25px;
+    z-index: 1;
 }
 
-
-.sl_img img {
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-}
 .containr {
     display: flex;
     justify-content: space-around;
