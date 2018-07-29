@@ -61,6 +61,7 @@ a {
     color: white;
     margin: 20px 0;
     background-color: #d94948;
+    height: 40px;
 
 }
 .main-menu {
@@ -393,6 +394,23 @@ section h2 {
     justify-content: space-between;
     margin: 110px 0 0 0;
 }
+.video-container .clip {
+    width: 50%;
+    margin: 0 10px;
+}
+.video-container .clip-container {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+.video-container .clip-container iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
 .clip p {
     text-align: center;
     font-family: "Open Sans", sans-serif;
@@ -668,13 +686,17 @@ button.slick-prev {
     .main-menu ul {
         display: none;
     }
-    .burger-menu  {
-        display: flex;
-    }
-    .burger-menu-list {
-        display: flex;
+    .video-container {
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 20px;
         flex-direction: column;
     }
+    .video-container .clip {
+        width: 100%;
+    }
+
+
     .ttablet {
         flex-direction: column;
         margin-top: 90px;
@@ -702,5 +724,20 @@ button.slick-prev {
     .partnerts-block {
         flex-direction: column;
         align-items: center;
+    }
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .separator {
+        display: none;
+    }
+    .site-link {
+        padding: 10px;
+        align-items: center;
+    }
+    .footer-logo {
+        padding: 20px;
     }
 }
