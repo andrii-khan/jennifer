@@ -506,6 +506,7 @@ iframe {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .slick-initialized .slick-slide.sl_slide {
     display: flex;
     justify-content: center;
@@ -523,6 +524,10 @@ button.slick-next:before {
 
 button.slick-next {
     right: 25px;
+=======
+.sl_slide {
+    position: relative;
+>>>>>>> parent of 2139d55... 'a'
 =======
 .sl_slide {
     position: relative;
