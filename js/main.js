@@ -55,3 +55,10 @@
      hamburger.classList.toggle("is-active");
      // Do something else, like open/close menu
  });
+
+ $(document).ready(function () {
+     $('.burger').click(function () {
+         var activeMenu = $('.burger__items');
+         activeMenu.toggleClass('menu-active');
+     });
+ });
