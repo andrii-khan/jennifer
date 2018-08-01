@@ -834,6 +834,9 @@ img {
     .main-content {
         padding-top: 30px;
     }
+    .btn-main {
+        margin: 0;
+    }
 }
 
 @media only screen and (max-width:468px) {
@@ -864,7 +867,7 @@ img {
         font-size: 16px;
     }
     .btn-main {
-        margin: 7px 0;
+        margin: 10px 0;
     }
 }
 
