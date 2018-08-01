@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5991632">
+    <splitter split-orientation="horizontal" split-proportion="0.6460251">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -30,8 +30,8 @@
           <file leaf-file-name="jennifer.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/jennifer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="283">
-                  <caret line="51" column="64" lean-forward="false" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+                <state relative-caret-position="934">
+                  <caret line="250" column="43" lean-forward="false" selection-start-line="250" selection-start-column="43" selection-end-line="250" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -64,8 +64,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="203">
-                  <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+                <state relative-caret-position="225">
+                  <caret line="57" column="1" lean-forward="false" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -74,8 +74,8 @@
           <file leaf-file-name="jennifer.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/jennifer.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="287">
-                  <caret line="695" column="22" lean-forward="true" selection-start-line="695" selection-start-column="22" selection-end-line="695" selection-end-column="22" />
+                <state relative-caret-position="241">
+                  <caret line="866" column="17" lean-forward="false" selection-start-line="866" selection-start-column="17" selection-end-line="866" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -84,8 +84,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="196">
-                  <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+                <state relative-caret-position="581">
+                  <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -115,6 +115,18 @@
       <find>video</find>
       <find>dona</find>
       <find>bur</find>
+      <find>pho</find>
+      <find>main-c</find>
+      <find>bu</find>
+      <find>main-con</find>
+      <find>main</find>
+      <find>photo</find>
+      <find>butt</find>
+      <find>cld</find>
+      <find>phot</find>
+      <find>body</find>
+      <find>block</find>
+      <find>clip</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,9 +143,9 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/бэм.html" />
         <option value="$PROJECT_DIR$/js/js.js" />
-        <option value="$PROJECT_DIR$/jennifer.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/jennifer.html" />
+        <option value="$PROJECT_DIR$/jennifer.css" />
       </list>
     </option>
   </component>
@@ -171,6 +183,11 @@
             <path>
               <item name="iquach92.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="iquach92.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="iquach92.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iquach92.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="iquach92.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -232,7 +249,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75416000" />
+    <option name="totallyTimeSpent" value="88418000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,14 +326,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dz-kvadrat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new-lessons.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -589,34 +598,42 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.png" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/dist/hamburgers.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="-3073">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="581">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="57" column="1" lean-forward="false" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jennifer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="51" column="64" lean-forward="false" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+        <state relative-caret-position="934">
+          <caret line="250" column="43" lean-forward="false" selection-start-line="250" selection-start-column="43" selection-end-line="250" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jennifer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="695" column="22" lean-forward="true" selection-start-line="695" selection-start-column="22" selection-end-line="695" selection-end-column="22" />
+        <state relative-caret-position="241">
+          <caret line="866" column="17" lean-forward="false" selection-start-line="866" selection-start-column="17" selection-end-line="866" selection-end-column="17" />
           <folding />
         </state>
       </provider>

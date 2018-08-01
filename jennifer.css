@@ -4,20 +4,21 @@ ul {
     margin: 0;
     list-style: none;
 }
-/** {*/
-    /*padding: 0;*/
-    /*margin: 0;*/
-/*}*/
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    /*position: relative;*/
-    padding: 0 30px;
+    height: 100%;
+    position: relative;
     /*display: flex;*/
     /*justify-content: space-between;*/
 }
 a {
     text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
 }
 .cf::after {
     content: '';
@@ -43,9 +44,9 @@ a {
 }
 .wrapper {
     font-family: "Open Sans", sans-serif ;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 15px;
-    height: 40px;
+    /*height: 40px;*/
 }
 .header-social-icons {
     float: right;
@@ -67,6 +68,7 @@ a {
 .main-menu {
     display: flex;
     justify-content: flex-end;
+    height: 80px;
 }
 .main-menu li:hover {
     cursor: pointer;
@@ -99,7 +101,7 @@ nav button .donate-buttom {
 .main-content h1 {
     font: 60px "Lobster";
     color: #0054a4;
-    padding: 40px 10px;
+    /*padding: 40px 10px;*/
     /*margin: 40px;*/
 }
 .main-content p {
@@ -109,15 +111,29 @@ nav button .donate-buttom {
     font-size: 19px;
     margin: 0 0 40px 0;
 }
+
+.main-content {
+    /*max-width: 420px;*/
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*flex-direction: column;*/
+    /*height: 100%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 420px;
+    padding-top: 70px;
+}
 .photo-main {
-    width: 438px;
     position: relative;
     top: 40px;
+    width: auto;
+    height: 720px;
 
 }
 .button-main {
     width: 162px;
-    height: 46px;
+    /*height: 46px;*/
     border-radius: 23px;
     text-align: center;
     line-height: 42px;
@@ -126,6 +142,7 @@ nav button .donate-buttom {
     font-size: 14px;
     color: white;
     border: 0;
+    margin-right: 10px;
 }
 .pink {
     background-color: #f15b4f;
@@ -136,9 +153,10 @@ nav button .donate-buttom {
     /*color: white;*/
 }
 .photo-girl {
-    background: url("main-img.jpg") no-repeat center;
+    background: url("main-img.jpg") no-repeat center top;
     background-size: cover;
-    height: 650px;
+    height: 724px;
+    max-width: 100%;
 
 }
 h3, h2  {
@@ -270,10 +288,6 @@ section h2 {
     color: white;
 }
 
-body {
-    margin: 0;
-}
-
 section h2 {
     margin-top: -30px;
 }
@@ -355,7 +369,9 @@ section h2 {
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
-
+.cld-items img {
+    width: 100%;
+}
 .img-lg {
     margin-top: -90px;
 }
@@ -398,7 +414,7 @@ section h2 {
 }
 .video-container .clip {
     width: 50%;
-    margin: 0 10px;
+    margin: 0px;
 }
 .video-container .clip-container {
     position: relative;
@@ -440,6 +456,10 @@ iframe {
     border-radius: 5px;
     overflow: hidden;
     height: 440px;
+    width: 100%;
+}
+.block__news img {
+    width: 100%;
 }
 .block__news__text p {
     font-size: 24px;
@@ -590,6 +610,7 @@ button.slick-prev {
 }
 .container-footer {
     display: flex;
+
 }
 .site-link {
     display: flex;
@@ -653,7 +674,6 @@ button.slick-prev {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     margin: 5px 0;
-
 }
 
 .adress-text {
@@ -686,8 +706,22 @@ button.slick-prev {
 img {
     /*width: 100%;*/
 }
+.btn-main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-footer {
+    padding: 0;
+    margin: 0;
+
+}
 
 @media only screen and (max-width:1100px) {
+    /*.container {*/
+        /*padding-left: 15px;*/
+        /*padding-right: 15px;*/
+    /*}*/
     .main-menu ul {
         display: none;
     }
@@ -704,11 +738,9 @@ img {
     .video-container .clip {
         width: 100%;
     }
-
-
     .ttablet {
         flex-direction: column;
-        margin-top: 90px;
+        margin-top: 125px;
     }
     .all-image {
         flex-direction: column;
@@ -738,6 +770,8 @@ img {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin: 0 auto;
+        padding: 0 0;
     }
     .separator {
         display: none;
@@ -747,6 +781,140 @@ img {
         align-items: center;
     }
     .footer-logo {
-        padding: 20px;
+        padding: 20px 0;
+    }
+    .photo-girl {
+        height: 60vw;
+    }
+    .site-link {
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .photo-girl {
+        height: 70vw;
     }
 }
+
+@media only screen and (max-width:768px) {
+    /*.photo-girl {*/
+        /*height: 60vw;*/
+    /*}*/
+    .main-content {
+        max-width: 320px;
+        justify-content: flex-end;
+        padding-top: 50px;
+    }
+    .main-content h1 {
+        font-size: 30px;
+        padding: 0;
+    }
+    .logo-top {
+        width: 250px;
+    }
+    .container {
+        padding: 0 10px;
+    }
+
+}
+
+
+@media only screen and (max-width:620px) {
+    .logo-top {
+        width: 240px;
+    }
+    .main-content h1 {
+        font-size: 25px;
+    }
+    .main-content p {
+        font-size: 18px;
+    }
+    .main-content {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width:468px) {
+    .logo-top {
+        width: 200px;
+    }
+
+    .cld-items {
+        width: 300px;
+    }
+
+    .main-menu {
+        height: 60px;
+    }
+    .donate-buttom {
+        margin: 7px;
+    }
+    .burger {
+        padding: 0;
+    }
+    .main-content {
+        padding-top: 15px;
+    }
+    .main-content p {
+        margin: 0;
+        width: 200px;
+        padding: 0;
+        font-size: 16px;
+    }
+    .btn-main {
+        margin: 7px 0;
+    }
+}
+
+@media only screen and (max-width:376px) {
+    .logo-top {
+        width: 140px;
+    }
+    .tablet {
+        width: 300px;
+        padding: 10px;
+        /*margin-top: -20px;*/
+    }
+
+
+    .container-footer {
+        width: 320px;
+    }
+    .container {
+        max-width: 320px;
+    }
+    .donate-buttom {
+        margin: 7px;
+    }
+    .burger {
+        padding: 0;
+    }
+    .main-content {
+        padding-top: 0;
+    }
+
+}
+    /*.main-content h1 {*/
+
+        /*font-size: 30px;*/
+
+    /*}*/
+
+    /*.main-content p {*/
+
+    /*}*/
+
+    /*.main-content {*/
+        /*max-width: 250px;*/
+        /*padding: 0;*/
+        /*margin: 0;*/
+    /*}*/
+
+    /*.photo-girl {*/
+        /*height: 60vw;*/
+    /*}*/
+
+
+
