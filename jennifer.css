@@ -910,9 +910,6 @@ img {
         padding: 10px;
         /*margin-top: -20px;*/
     }
-    .container-footer {
-        width: 320px;
-    }
     .container {
         max-width: 320px;
     }
@@ -925,27 +922,11 @@ img {
     .main-content {
         padding-top: 0;
     }
+    .footer-logo img {
+        width: 80vw;
+    }
 
 }
-    /*.main-content h1 {*/
-
-        /*font-size: 30px;*/
-
-    /*}*/
-
-    /*.main-content p {*/
-
-    /*}*/
-
-    /*.main-content {*/
-        /*max-width: 250px;*/
-        /*padding: 0;*/
-        /*margin: 0;*/
-    /*}*/
-
-    /*.photo-girl {*/
-        /*height: 60vw;*/
-    /*}*/
 
 
 

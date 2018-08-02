@@ -4,8 +4,6 @@
     <list default="true" id="6c3faf88-b82f-415a-9b46-52873bf834fd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/jennifer.css" afterPath="$PROJECT_DIR$/jennifer.css" />
-      <change beforePath="$PROJECT_DIR$/jennifer.html" afterPath="$PROJECT_DIR$/jennifer.html" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +29,7 @@
           <file leaf-file-name="jennifer.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/jennifer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="47">
+                <state relative-caret-position="-350">
                   <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
                   <folding />
                 </state>
@@ -75,8 +73,8 @@
           <file leaf-file-name="jennifer.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/jennifer.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="334">
-                  <caret line="747" column="26" lean-forward="false" selection-start-line="747" selection-start-column="26" selection-end-line="747" selection-end-column="26" />
+                <state relative-caret-position="476">
+                  <caret line="925" column="16" lean-forward="false" selection-start-line="925" selection-start-column="16" selection-end-line="925" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -252,7 +250,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93480000" />
+    <option name="totallyTimeSpent" value="94338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,7 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jennifer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
+        <state relative-caret-position="-350">
           <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
           <folding />
         </state>
@@ -635,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jennifer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="747" column="26" lean-forward="false" selection-start-line="747" selection-start-column="26" selection-end-line="747" selection-end-column="26" />
+        <state relative-caret-position="476">
+          <caret line="925" column="16" lean-forward="false" selection-start-line="925" selection-start-column="16" selection-end-line="925" selection-end-column="16" />
           <folding />
         </state>
       </provider>
